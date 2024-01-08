@@ -1,0 +1,8 @@
+git config --global user.email "이메일"
+git init
+git remote add origin 주소
+
+git add .
+git commit -m "메시지"
+git push origin master
+
