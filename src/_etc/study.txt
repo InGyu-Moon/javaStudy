@@ -33,3 +33,8 @@ https://velog.io/@jaeyunn_15/OS-Compiler-vs-Interpreter
 유튜브 찾아보기
 https://www.youtube.com/watch?v=QPulWilGBpk
 
+======================================================================================================================================================
+
+idea 파일 깃 이그노어 하고 깃 클론하면
+https://todayscoding.tistory.com/54
+
