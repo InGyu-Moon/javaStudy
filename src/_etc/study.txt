@@ -1,9 +1,3 @@
-1. 자바 메모리 구조 (힙,스택) (ex String)
-유튜브 찾아보기
-https://www.youtube.com/watch?v=QPulWilGBpk
-
-======================================================================================================================================================
-
 String == 비교 대신 equals 사용, 메모리 관점, 주소
 https://2jinishappy.tistory.com/293
 
@@ -21,34 +15,21 @@ String, StringBuilder, StringBuffer의 차이는?
 https://2jinishappy.tistory.com/259?category=936901
 
 ======================================================================================================================================================
+<JVM과 메모리구조>
+자바 JVM 클래스로더, 실행엔진, 메모리
+https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/JVM%20%26%20%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B5%AC%EC%A1%B0.md#jvm--%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0
 
-jvm이란 무엇인가?
 https://doozi0316.tistory.com/entry/1%EC%A3%BC%EC%B0%A8-JVM%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B4%EB%A9%B0-%EC%9E%90%EB%B0%94-%EC%BD%94%EB%93%9C%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%B8%EA%B0%80
 
-jvm은 java virtual machine
+======================================================================================================================================================
 
-java는 os에 종속적이지 않다 -> os에 종속적인 언어
-그래서 os 위에서 java를 실행시킬 무언가가 필요하고 그게 jvm이다
-java 소스코드 즉 *.java를  java compiler가 *.class 라는 java bytecode로 변환하고
-이를 jvm에서 os가 해석할수있는 bytecode로 변환해준다.
-
-<그러면 OS에 종속적인 언어는 뭐가 있을까?>
-c언어는 os에 종속적이다 -> 리눅스에서 작성한 코드가 윈도우에서 작동하지 않는다.
-https://kevinitcoding.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%97%90-%EB%8C%80%ED%95%9C-%EC%99%84%EB%B2%BD-%EC%A0%95%EB%A6%AC-%EC%8B%9C%EA%B0%84%EC%9D%80-%EC%97%86%EC%A7%80%EB%A7%8C-%EB%B0%B0%EC%9A%B0%EA%B3%A0-%EC%8B%B6%EC%9D%80-%EB%8B%B9%EC%8B%A0%EC%9D%84-%EC%9C%84%ED%95%98%EC%97%AC
-
-<JRE는 무엇인가?>
-(jre? JRE는 자바 애플리케이션을 실행할 수 있도록 구성된 배포판입니다.) - 첫링크 글에 다 정리되어있음
-
-<컵파일러, 인터프리터 차이>
+[Java] Java에서 인터프리터 방식과 컴파일 방식
+컵파일러, 인터프리터 차이
 https://velog.io/@jaeyunn_15/OS-Compiler-vs-Interpreter
 
-=========================
->>> javac Test.java
-=> Test.class 파일 생성
+======================================================================================================================================================
 
->>> java Test
-=> 실행
-=========================
-
-
+자바 메모리 구조 (힙,스택) (ex String)
+유튜브 찾아보기
+https://www.youtube.com/watch?v=QPulWilGBpk
 
