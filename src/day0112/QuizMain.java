@@ -86,11 +86,14 @@ public class QuizMain {
             int html = Integer.parseInt(sc.nextLine());
             quizzes[i] = new Quiz(name,java,oracle,html);
         }
+        System.out.println();
+        System.out.println();
         System.out.println("학교명: "+schoolName);
+        System.out.println();
         System.out.println("이름\t\tJAVA\tORACLE\tHTML\t총점\t\t평균\t\t평가");
         System.out.println("=====================================================");
         for(int i=0;i<num;i++){
-            System.out.printf("%s\t%d\t\t%d\t\t%d\t\t%d\t\t%.2f\t\t%s\n",
+            System.out.printf("%s\t%d\t\t%d\t\t%d\t\t%d\t\t%.1f\t\t%s\n",
                     quizzes[i].getName(),quizzes[i].getJava(),quizzes[i].getOracle(),quizzes[i].getHtml(),
                     quizzes[i].getTotal(),quizzes[i].getAverage(),quizzes[i].getPyungga());
         }
