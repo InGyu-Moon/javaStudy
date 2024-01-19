@@ -1,33 +1,31 @@
 package _etc;
 
-class Person123 {
-    private String name;
-    private int age;
+import java.util.HashMap;
+import java.util.Map;
 
-    public Person123(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
+public class Example{
+    public static void main(String[] args) {
 
-    // toString 메서드 오버라이드
-    @Override
-    public String toString() {
-        return "Person{name='" + name + "', age=" + age + '}';
+        Test test = new Test();
+
+        int num=1;
+        test.add1(num);
+
+        Map<String, Object> model = new HashMap<>();
+        test.add2(model);
+
+        System.out.println("num = " + num);
+        System.out.println("model = " + model);
+
     }
 }
-
-public class Example {
-    public static void main(String[] args) {
-        Person123 person = new Person123("John", 25);
-
-        System.out.println();
-
-        // String.valueOf() 사용
-        String valueOfString = String.valueOf(person);
-        System.out.println("String.valueOf(): " + valueOfString);
-
-        // toString() 사용
-        String toStringResult = person.toString();
-        System.out.println("toString(): " + toStringResult);
+class Test{
+    public void add1(int num){
+        num = 10;
     }
+    public void add2(Map<String, Object> model) {
+        model.put("key1", "value1");
+        model.put("key2", "value2");
+    }
+
 }
