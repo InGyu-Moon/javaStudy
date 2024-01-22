@@ -1,3 +1,9 @@
+@Transactional Exception 롤백
+
+https://kghworks.tistory.com/106
+https://techblog.woowahan.com/2606/
+
+
 https://resilient-923.tistory.com/415
 
  ======================================================================================================================================================
