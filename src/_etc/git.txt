@@ -6,3 +6,4 @@ git add .
 git commit -m "메시지"
 git push origin master
 
+2024 git clone test
